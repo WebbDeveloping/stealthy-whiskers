@@ -6,7 +6,7 @@ export default function NavigationWhite() {
 
   return (
     <nav
-      className={`fixed top-0 w-full flex flex-col justify-between z-50 bg-white pb-4`}
+      className={`fixed top-0 w-full flex flex-col justify-between z-50 bg-white `}
     >
       <div className="flex w-full justify-between px-4 py-4">
         <a href="/">
