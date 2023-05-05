@@ -40,7 +40,6 @@ export default function ProductHero({ product }) {
                 </li>
               </ul>
             </div>
-            <div className="back-button-wrapper"></div>
           </div>
           <div className="max-w-md px-4 pt-9 justify-self-start align-self-start">
             <div className="flex flex-col gap-3">

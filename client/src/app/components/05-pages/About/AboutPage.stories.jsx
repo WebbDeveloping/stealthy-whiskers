@@ -1,4 +1,4 @@
-import About from "./About";
+import About from "./AboutPage";
 
 const Component = {
   title: "05-pages/About",

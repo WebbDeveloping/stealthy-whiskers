@@ -1,4 +1,4 @@
-import Shop from "./Shop";
+import Shop from "./ShopPage";
 
 const Component = {
   title: "05-pages/Shop",

@@ -1,4 +1,4 @@
-import Contact from "./Contact";
+import Contact from "./ContactPage";
 
 const Component = {
   title: "05-pages/Contact",

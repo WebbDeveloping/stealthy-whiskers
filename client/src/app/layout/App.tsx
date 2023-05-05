@@ -3,7 +3,7 @@ import { Product } from "../models/products";
 import "./App.css";
 import "../../global.css";
 import "./styles.css";
-import Home from "../components/05-pages/Home/Home";
+import Home from "../components/05-pages/Home/HomePage";
 
 function App() {
   const [products, setProducts] = useState<Product[]>([]);

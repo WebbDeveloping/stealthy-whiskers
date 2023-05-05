@@ -1,4 +1,4 @@
-import Home from "./Home";
+import Home from "./HomePage";
 
 const Component = {
   title: "05-pages/Home",
