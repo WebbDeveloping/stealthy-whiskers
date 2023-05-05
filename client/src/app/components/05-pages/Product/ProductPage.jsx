@@ -8,6 +8,7 @@ import ProductDetails from "../../02-molecules/ProductDetails/ProductDetails";
 import HalfGrid from "../../04-templates/HalfGrid/HalfGrid";
 import MoreProductImages from "../../03-organisms/MoreProductImages/MoreProductImages";
 import RelatdProducts from "../../02-molecules/RelatedProducts/RelatedProducts";
+import NavigationWhite from "../../03-organisms/NavigationWhite/NavigationWhite";
 
 const product = {
   name: "Cat-Eye Goggles",
@@ -30,7 +31,7 @@ const product = {
 export default function Product(props) {
   return (
     <div className="page-wrapper">
-      <NavigationTransparent />
+      <NavigationWhite />
       <div className="page-content top-pad">
         <ProductHero product={product} />
         <ProductDetails />

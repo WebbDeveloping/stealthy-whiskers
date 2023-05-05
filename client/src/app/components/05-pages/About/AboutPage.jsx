@@ -8,12 +8,13 @@ import FollowUs from "../../03-organisms/FollowUs/FollowUs";
 import NavigationTransparent from "../../03-organisms/NavigationTransparent/NavigationTransparent";
 import TestimonialSlider from "../../03-organisms/TestimonialSlider/TestimonialSlider";
 import Footer from "../../03-organisms/Footer/Footer";
+import NavigationWhite from "../../03-organisms/NavigationWhite/NavigationWhite";
 
 export default function About() {
   return (
     <div className="home">
       <div className="w-full">
-        <NavigationTransparent />
+        <NavigationWhite />
         <section className="min-h-auto flex flex-col justify-start items-centerr">
           <div className="w-full">
             {/* <Hero /> */}
