@@ -1,7 +1,6 @@
 import ProductCard from "../../02-molecules/ProductCard/ProductCard";
 
 function ProductGrid({ products }) {
-  console.log("Best Selling", products);
   return (
     <div className="relative flex flex-col w-full z-20 py-10">
       <div className="text-center mb-9">
