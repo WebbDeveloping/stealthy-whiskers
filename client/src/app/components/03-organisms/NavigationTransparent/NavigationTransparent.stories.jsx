@@ -1,13 +1,13 @@
-import Navigation from "./Navigation";
+import NavigationTransparent from "./NavigationTransparent";
 
 const Component = {
-  title: "03-organisms/Navigation",
-  component: Navigation,
+  title: "03-organisms/NavigationTransparent",
+  component: NavigationTransparent,
 };
 
 export default Component;
 
-const Template = (args) => <Navigation {...args} />;
+const Template = (args) => <NavigationTransparent {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {

@@ -59,7 +59,7 @@ function Hero(props) {
             alt=""
             className="absolute inset-0 object-cover w-full h-full z-0"
           />
-          <div className="relative grid justify-center text-center text-white max-w-[800px] z-40 px-2">
+          <div className="relative grid justify-center text-center text-white max-w-[800px] z-40 px-2 pt-12">
             <h1 className="text-5xl font-semibold uppercase m-0 mb-8">
               {slide.title}
             </h1>

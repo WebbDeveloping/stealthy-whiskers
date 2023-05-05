@@ -1,6 +1,6 @@
 import React from "react";
 import HeroBgImage from "../../02-molecules/HeroBgImage/HeroBgImage";
-import Navigation from "../../03-organisms/Navigation/Navigation";
+import NavigationTransparent from "../../03-organisms/NavigationTransparent/NavigationTransparent";
 import ProductGrid from "../../03-organisms/ProductGrid/ProductGrid";
 import { products } from "../../../TestData/products";
 import TestimonialSlider from "../../03-organisms/TestimonialSlider/TestimonialSlider";
@@ -17,7 +17,7 @@ export default function Shop() {
   };
   return (
     <>
-      <Navigation />
+      <NavigationTransparent />
       <HeroBgImage data={HeroData} />
       <ProductGrid products={products} />
       <TestimonialSlider />

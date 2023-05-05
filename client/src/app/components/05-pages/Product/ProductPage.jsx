@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../../03-organisms/Footer/Footer";
 import FollowUs from "../../03-organisms/FollowUs/FollowUs";
-import Navigation from "../../03-organisms/Navigation/Navigation";
+import NavigationTransparent from "../../03-organisms/NavigationTransparent/NavigationTransparent";
 import TestimonialSlider from "../../03-organisms/TestimonialSlider/TestimonialSlider";
 import ProductHero from "../../03-organisms/ProductHero/ProductHero";
 import ProductDetails from "../../02-molecules/ProductDetails/ProductDetails";
@@ -30,7 +30,7 @@ const product = {
 export default function Product(props) {
   return (
     <div className="page-wrapper">
-      <Navigation />
+      <NavigationTransparent />
       <div className="page-content top-pad">
         <ProductHero product={product} />
         <ProductDetails />

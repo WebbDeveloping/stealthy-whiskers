@@ -1,5 +1,5 @@
 import React from "react";
-import Navigation from "../../03-organisms/Navigation/Navigation";
+import NavigationTransparent from "../../03-organisms/NavigationTransparent/NavigationTransparent";
 import HeroBgImage from "../../02-molecules/HeroBgImage/HeroBgImage";
 import ProductGrid from "../../03-organisms/ProductGrid/ProductGrid";
 import { products } from "../../../TestData/products";
@@ -17,7 +17,7 @@ export default function CategoryPage() {
   };
   return (
     <>
-      <Navigation />
+      <NavigationTransparent />
       <HeroBgImage data={HeroData} />
       <ProductGrid products={products} />
       <TestimonialSlider />
