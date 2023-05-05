@@ -2,7 +2,7 @@ import React from "react";
 import ContentSectionOne from "../../02-molecules/ContentSectionOne/ContentSectionOne";
 import FoundingStory from "../../02-molecules/FoundingStory/FoundingStory";
 import InnerHero from "../../02-molecules/InnerHero/InnerHero";
-import BgImgSlider from "../../03-organisms/BgImgSlider/BgImgSlider";
+import ActionSection from "../../03-organisms/ActionSection/ActionSection";
 import ContentSection from "../../02-molecules/ContentSection/ContentSection";
 import FollowUs from "../../03-organisms/FollowUs/FollowUs";
 import Navigation from "../../03-organisms/Navigation/Navigation";
@@ -22,7 +22,7 @@ export default function About() {
         </section>
         <ContentSectionOne />
         <FoundingStory />
-        <BgImgSlider />
+        <ActionSection />
 
         <ContentSection />
         <TestimonialSlider />
