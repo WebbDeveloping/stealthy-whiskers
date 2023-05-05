@@ -1,4 +1,4 @@
-import RelatdProducts from "./RelatdProducts";
+import RelatdProducts from "./RelatedProducts";
 
 const Component = {
   title: "02-molecules/RelatdProducts",

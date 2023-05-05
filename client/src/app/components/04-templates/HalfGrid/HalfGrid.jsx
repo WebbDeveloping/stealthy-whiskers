@@ -28,14 +28,14 @@ export default function HalfGrid() {
               className="flex justify-start items-center gap-x-4 text-xs uppercase text-[#667479]"
             >
               <div className="relative">
-                <div className="button-text">Buy yours now</div>
+                <div className="text-xs">Buy yours now</div>
               </div>
-              <div className="link-arrow-wrapper">
+              <div className="relative max-w-[16px]">
                 <img
                   src="https://assets.website-files.com/642fc428f0c0b966d5ba7a46/642fc428f0c0b915ebba7b34_arrow-right(24x24)%402x%20(8).svg"
                   loading="lazy"
                   alt=""
-                  className="max-w-[22px]"
+                  className="max-w-[16px]"
                 />
               </div>
             </a>

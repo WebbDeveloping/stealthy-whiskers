@@ -2,68 +2,78 @@ import React from "react";
 
 export default function MoreProductImages() {
   return (
-    <div className="section bottom-border wf-section">
-      <div className="stacked-content">
-        <div className="grid-wrapper">
-          <div className="wrapper-intro centered">
-            <div className="stacked-intro">
-              <div className="subtitle">more images</div>
-              <h1 className="heading large">For cats who mean business</h1>
+    <div className="relative overflow-hidden py-12 border-b border-[#e4e9ec]">
+      <div className="px-4 flex flex-col gap-y-8">
+        <div className="flex justify-center items-center">
+          <div className="flex flex-col text-center">
+            <div className="flex flex-col text-center gap-y-4">
+              <div className="text-xs uppercase text-[#667479]">
+                more images
+              </div>
+              <h2 className="text-3xl font-extrabold uppercase">
+                For cats who mean business
+              </h2>
             </div>
           </div>
         </div>
-        <div className="grid-wrapper">
+        <div className="flex justify-center items-center">
           <div className="w-dyn-list">
-            <div
-              role="list"
-              className="customer-image-grid w-dyn-items"
-              data-wf-collection="f_customer_product_images_8dr16dr"
-              data-wf-template-id="wf-template-d9a1172d-2ad9-8b17-4a05-596a96ef6371"
-            >
-              <div role="listitem" className="w-dyn-item w-dyn-repeater-item">
-                <div className="customer-image">
+            <ul className="flex p-2">
+              <li>
+                <div className="h-[113px] relative min-w-full z-10">
                   <div
-                    //     style="
-                    //   background-image: url('https://assets.website-files.com/642fc428f0c0b942b1ba7a71/642fc9e0fd26aa799293aa68_lknw.png');
-                    // "
-                    className="background"
-                  ></div>
+                    className={`h-[113px] w-[113px] min-h-[113px] relative overflow-hidden`}
+                  >
+                    <div className={`relative w-[113px] min-h-[113px]`}>
+                      <img
+                        src="https://assets.website-files.com/642fc428f0c0b942b1ba7a71/642fc9e994a7088808ad8934_vasd.png"
+                        className="h-full w-full object-cover absolute inset-0 top-0 left-0 right-0 bottom-0"
+                        alt=""
+                      />
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div role="listitem" className="w-dyn-item w-dyn-repeater-item">
-                <div className="customer-image">
+              </li>
+              <li className="mx-2">
+                <div className="h-[113px] relative min-w-full z-10">
                   <div
-                    //     style="
-                    //   background-image: url('https://assets.website-files.com/642fc428f0c0b942b1ba7a71/642fc9e581dd73d908d49cac_hqvw.png');
-                    // "
-                    className="background"
-                  ></div>
+                    className={`h-[113px] w-[113px] min-h-[113px] relative overflow-hidden`}
+                  >
+                    <div className={`relative w-[113px] min-h-[113px]`}>
+                      <img
+                        src="https://assets.website-files.com/642fc428f0c0b942b1ba7a71/642fc9e994a7088808ad8934_vasd.png"
+                        className="h-full w-full object-cover absolute inset-0 top-0 left-0 right-0 bottom-0"
+                        alt=""
+                      />
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div role="listitem" className="w-dyn-item w-dyn-repeater-item">
-                <div className="customer-image">
+              </li>
+              <li>
+                <div className="h-[113px] relative min-w-full z-10">
                   <div
-                    //     style="
-                    //   background-image: url('https://assets.website-files.com/642fc428f0c0b942b1ba7a71/642fc9e994a7088808ad8934_vasd.png');
-                    // "
-                    className="background"
-                  ></div>
+                    className={`h-[113px] w-[113px] min-h-[113px] relative overflow-hidden`}
+                  >
+                    <div className={`relative w-[113px] min-h-[113px]`}>
+                      <img
+                        src="https://assets.website-files.com/642fc428f0c0b942b1ba7a71/642fc9e994a7088808ad8934_vasd.png"
+                        className="h-full w-full object-cover absolute inset-0 top-0 left-0 right-0 bottom-0"
+                        alt=""
+                      />
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div className="w-dyn-hide w-dyn-empty">
-              <div>No items found.</div>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
-        <div className="grid-wrapper">
+        <div className="flex justify-center">
           <a
             href="#buy"
-            id="w-node-_72602cd5-683c-6ea5-0d2f-7a3cbf8f4f27-fcba7ab5"
-            className="button dark w-inline-block w--current"
+            className="bg-black text-xs uppercase font-light py-3 px-7 border rounded-full"
           >
-            <div className="button-text-wrapper">
-              <div className="button-text">Buy now</div>
+            <div className="flex justify-center items-center">
+              <div className="text-white uppercase">Buy now</div>
             </div>
           </a>
         </div>

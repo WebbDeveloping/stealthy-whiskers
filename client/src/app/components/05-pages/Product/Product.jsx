@@ -7,7 +7,7 @@ import ProductHero from "../../03-organisms/ProductHero/ProductHero";
 import ProductDetails from "../../02-molecules/ProductDetails/ProductDetails";
 import HalfGrid from "../../04-templates/HalfGrid/HalfGrid";
 import MoreProductImages from "../../03-organisms/MoreProductImages/MoreProductImages";
-import RelatdProducts from "../../02-molecules/RelatedProducts/RelatdProducts";
+import RelatdProducts from "../../02-molecules/RelatedProducts/RelatedProducts";
 
 const product = {
   name: "Cat-Eye Goggles",
