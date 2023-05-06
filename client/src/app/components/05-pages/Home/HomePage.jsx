@@ -17,13 +17,11 @@ export default function Home() {
     <div className="relative overflow-x-hidden page-wrapper">
       <NavigationTransparent />
       <Hero />
-
       <OurStory className="mx-auto w-full overflow-hidden" />
-
       <Carousel />
       <BestSelling products={products} />
       <section className="py-10 lg:py-24 flex flex-col lg:flex-row gap-y-8 gap-x-2">
-        <div className="w-full lg:w-2/5">
+        <div className="w-full lg:w-2/5 xl:w-2/4">
           <BgImgSlider />
         </div>
         <div className="w-full lg:sticky lg:-mb-[65px] lg:pb-16 ">

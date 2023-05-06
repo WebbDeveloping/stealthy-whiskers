@@ -8,9 +8,11 @@ function Carousel() {
   const settings = {
     slidesToShow: 1,
     slidesToScroll: 1,
+    infinite: true,
     adaptiveHeight: true,
     arrows: true,
     centerMode: true,
+    // centerPadding: "400px", // for large screen
     className: "center",
   };
   return (
@@ -18,7 +20,7 @@ function Carousel() {
       {slides.map((slide, index) => {
         return (
           <div
-            className="relative min-h-[70vw] lg:max-w-[1300px] py-9 px-6 overflow-x-hidden lg:max-h-[700px] rounded-md shadow-lg overflow-y-hidden"
+            className="relative min-h-[70vw] py-9 px-6 lg:min-h-[700px] lg:max-w-[1500px] lg:min-w-[800px] rounded-md shadow-lg overflow-y-hidden"
             key={index}
           >
             <img
@@ -27,8 +29,8 @@ function Carousel() {
               alt=""
             />
             <div className="absolute inset-0 bg-black opacity-50"></div>
-            <div className="absolute bottom-0 left-0 w-full p-6 lg:pl-14 lg:pb-14 max-w-lg flex flex-col gap-y-4">
-              <h2 className="text-1xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold text-white">
+            <div className="absolute bottom-0 left-0 w-full p-6 lg:pl-14 lg:pb-14 max-w-xs lg:max-w-lg flex flex-col gap-y-4">
+              <h2 className="text-2xl  md:text-3xl lg:text-4xl font-semibold text-white">
                 {slide.title}
               </h2>
               <a

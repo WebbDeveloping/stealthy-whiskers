@@ -2,10 +2,19 @@ import React from "react";
 
 function OurStory() {
   return (
-    <div className="px-4 py-20 relative flex justify-center z-10 h-full bg-[#ffffff] lg:w-full">
-      <div className="grid-cols-3 gap-0 relative z-25 lg:w-full">
-        <div className="grid grid-cols-1 grid-row-2 gap-0 items-center justify-center lg:grid-row-1 relative px-5 lg:container mx-auto">
-          <div className="w-full max-w-full mx-auto mt-4">
+    <div className="px-4 py-20 lg:py-32 relative flex justify-center items-center z-10 h-full bg-[#ffffff] lg:w-full">
+      <div className="grid-cols-3 gap-0 relative z-25 lg:w-full h-auto flex lg:justify-center">
+        <div class="grid justify-center items-center content-center grid-rows-2 grid-cols-2 gap-y-8 gap-x-2 lg:grid-rows-1 lg:grid-cols-3">
+          <div className="relative w-full order-last lg:order-1 flex justify-self-end justify-start lg:justify-center">
+            <div className="relative w-[30vw] lg:w-[15vw] h-[40vw] lg:h-[21vw]  lg:m-0 overflow-hidden mt-24">
+              <img
+                src="https://assets.website-files.com/642fc428f0c0b966d5ba7a46/642fc5b24525316565e8ab0d_11.webp"
+                className="h-full w-full object-cover"
+                alt="Purrtection Helmet"
+              />
+            </div>
+          </div>
+          <div class="flex flex-col justify-center items-center order-first lg:order-2 col-span-2	lg:col-span-1">
             <div className="flex flex-col gap-y-8 justify-center text-center">
               <div className="flex flex-col gap-y-4 text-center items-center justify-center">
                 <div className="max-w-lg">
@@ -30,7 +39,7 @@ function OurStory() {
                   className="flex items-center bg-[#080808] text-sm text-center uppercase border rounded-full justify-center py-3 px-7 text-white"
                 >
                   <div className="overflow-hidden flex flex-col cursor-pointer text-xs">
-                    <div className="text-xs uppercase">ShoP All</div>
+                    <div className="text-xs uppercase">Shop All</div>
                   </div>
                 </a>
                 <a href="/about" className="flex items-center gap-5">
@@ -49,15 +58,8 @@ function OurStory() {
               </div>
             </div>
           </div>
-          <div className="flex w-full justify-center mt-16 gap-2 lg:justify-between lg:absolute lg:z-10 lg:px-5 lg:items-center">
-            <div className="relative third h-[220px] w-[113px] mt-4 lg:m-0 lg:h-[21vw] lg:w-[15vw]">
-              <img
-                src="https://assets.website-files.com/642fc428f0c0b966d5ba7a46/642fc5b24525316565e8ab0d_11.webp"
-                className="h-full w-full object-cover"
-                alt="Purrtection Helmet"
-              />
-            </div>
-            <div className="relative third h-[220px] lg:h-[21vw] lg:w-[15vw] w-[113px] mt-16 lg:m-0">
+          <div className="relative w-full flex justify-self-start self-center justify-end lg:justify-center lg:order-3">
+            <div className="relative w-[30vw] lg:w-[15vw] h-[40vw] lg:h-[21vw] lg:m-0 overflow-hidden">
               <img
                 src="https://assets.website-files.com/642fc428f0c0b966d5ba7a46/642fc5b200c6121239e961ea_9.webp"
                 className="h-full w-full object-cover"

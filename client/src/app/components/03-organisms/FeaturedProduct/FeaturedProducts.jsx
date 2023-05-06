@@ -17,8 +17,8 @@ const FeaturedProducts = () => {
         <div className="max-w-full">
           <ul className="flex flex-col gap-x-4 gap-y-14">
             <li className="w-full">
-              <div className="flex flex-col gap-y-14">
-                <div className="max-w-[300px] flex flex-col gap-x-4 gap-y-4 pr-15">
+              <div className="flex flex-col gap-y-14 lg:flex-row">
+                <div className="max-w-xs flex flex-col gap-x-4 gap-y-4 pr-16">
                   <div className="flex flex-col gap-y-4">
                     <h3 className="text-2xl m-0">Purrtection Helmet</h3>
                     <div className="text-[#667479] text-sm">
@@ -44,22 +44,22 @@ const FeaturedProducts = () => {
                     </div>
                   </a>
                 </div>
-                <div className="flex gap-x-1 w-full flex-grow">
-                  <div className="relative min-h-[45vw] bg-[#f4f8fa] justify-center items-center flex mb-16">
+                <div className="flex gap-x-1 lg:gap-x-4 w-full flex-grow lg:max-w-3/4">
+                  <div className="relative min-h-[35vw] bg-[#f4f8fa] justify-center items-center flex mb-16">
                     <img
                       src="https://assets.website-files.com/642fc428f0c0b942b1ba7a71/642fc6d151b8ae1501defbdb_9.png"
                       className="w-full object-cover h-full"
                       alt="Purrtection Helmet"
                     />
                   </div>
-                  <div className="relative min-h-[45vw] bg-[#f4f8fa] justify-center items-center flex mt-8 mb-8">
+                  <div className="relative min-h-[35vw] bg-[#f4f8fa] justify-center items-center flex mt-8 mb-8">
                     <img
                       src="https://assets.website-files.com/642fc428f0c0b942b1ba7a71/642fc9cd5e9c6b5efd29eba6_10.png"
                       className="w-full object-cover h-full"
                       alt="Purrtection Helmet"
                     />
                   </div>
-                  <div className="relative min-h-[45vw] bg-[#f4f8fa] justify-center items-center flex mt-16">
+                  <div className="relative min-h-[35vw] bg-[#f4f8fa] justify-center items-center flex mt-16">
                     <img
                       src="https://assets.website-files.com/642fc428f0c0b942b1ba7a71/642fc6d151b8ae1501defbdb_9.png"
                       className="w-full object-cover h-full"
@@ -70,8 +70,8 @@ const FeaturedProducts = () => {
               </div>
             </li>
             <li className="w-full">
-              <div className="featured-wrapper flex flex-col gap-y-14">
-                <div className="max-w-[300px] flex flex-col gap-x-4 gap-y-8 pr-15">
+              <div className="flex flex-col gap-y-14 lg:flex-row">
+                <div className="max-w-xs flex flex-col gap-x-4 gap-y-8 pr-16 lg:w-1/4">
                   <div className="flex flex-col gap-y-4">
                     <h3 className="text-2xl m-0 uppercase">
                       Purrtection Helmet
@@ -98,22 +98,22 @@ const FeaturedProducts = () => {
                     </div>
                   </a>
                 </div>
-                <div className="flex gap-x-1 w-full flex-grow">
-                  <div className="relative min-h-[45vw] bg-[#f4f8fa] justify-center items-center flex mb-16">
+                <div className="flex gap-x-1 lg:gap-x-4 w-full flex-grow lg:max-w-3/4">
+                  <div className="relative min-h-[35vw] bg-[#f4f8fa] justify-center items-center flex mb-16">
                     <img
                       src="https://assets.website-files.com/642fc428f0c0b942b1ba7a71/642fc6d151b8ae1501defbdb_9.png"
                       className="w-full object-cover h-full"
                       alt="Purrtection Helmet"
                     />
                   </div>
-                  <div className="relative min-h-[45vw] bg-[#f4f8fa] justify-center items-center flex my-8">
+                  <div className="relative min-h-[35vw] bg-[#f4f8fa] justify-center items-center flex my-8">
                     <img
                       src="https://assets.website-files.com/642fc428f0c0b942b1ba7a71/642fc9cd5e9c6b5efd29eba6_10.png"
                       className="w-full object-cover h-full"
                       alt="Purrtection Helmet"
                     />
                   </div>
-                  <div className="relative min-h-[45vw] bg-[#f4f8fa] justify-center items-center flex mt-16">
+                  <div className="relative min-h-[35vw] bg-[#f4f8fa] justify-center items-center flex mt-16">
                     <img
                       src="https://assets.website-files.com/642fc428f0c0b942b1ba7a71/642fc6d151b8ae1501defbdb_9.png"
                       className="w-full object-cover h-full"
