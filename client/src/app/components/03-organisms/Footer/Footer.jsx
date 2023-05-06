@@ -12,18 +12,22 @@ function Footer() {
                 Navigation
               </h3>
               <ul className="flex flex-col">
-                <FooterLink href="/" text="Home" current={true} />
-                <FooterLink href="/about" text="About" />
-                <FooterLink href="/contact" text="Contact" />
-                <FooterLink href="/faq" text="FAQ" />
+                <FooterLink slug="/" text="Home" current={true} />
+                <FooterLink slug="/about" text="About" />
+                <FooterLink slug="/contact" text="Contact" />
+                <FooterLink slug="/" text="FAQ" />
               </ul>
             </div>
             <div className="flex flex-col">
               <h3 className="text-md uppercase mb-5 font-semibold">Products</h3>
               <ul className="flex flex-col">
-                <FooterLink href="/" text="Tactical Gear" current={true} />
-                <FooterLink href="/blog" text="Camouflage Gear" />
-                <FooterLink href="/portfolio" text="Shop All" />
+                <FooterLink
+                  slug="/products"
+                  text="Tactical Gear"
+                  current={true}
+                />
+                <FooterLink slug="/products" text="Camouflage Gear" />
+                <FooterLink slug="/products" text="Shop All" />
               </ul>
             </div>
           </div>

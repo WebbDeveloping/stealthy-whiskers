@@ -5,7 +5,6 @@ import InnerHero from "../../02-molecules/InnerHero/InnerHero";
 import ActionSection from "../../03-organisms/ActionSection/ActionSection";
 import ContentSection from "../../02-molecules/ContentSection/ContentSection";
 import FollowUs from "../../03-organisms/FollowUs/FollowUs";
-import NavigationTransparent from "../../03-organisms/NavigationTransparent/NavigationTransparent";
 import TestimonialSlider from "../../03-organisms/TestimonialSlider/TestimonialSlider";
 import Footer from "../../03-organisms/Footer/Footer";
 import NavigationWhite from "../../03-organisms/NavigationWhite/NavigationWhite";

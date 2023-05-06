@@ -1,9 +1,10 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function FooterLink(props) {
   return (
     <li className="block mb-5 last:mb-0 text-white uppercase">
-      <a href={props.href} className="">
+      <NavLink to={props.slug} className="">
         <div className="flex items-center">
           <div className="mr-2 text-sm font-light">{props.text}</div>
           <div className="text-white flex justify-center items-center">
@@ -24,7 +25,7 @@ function FooterLink(props) {
             </svg>
           </div>
         </div>
-      </a>
+      </NavLink>
     </li>
   );
 }

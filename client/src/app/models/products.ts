@@ -2,11 +2,15 @@ export interface Product {
   id: number;
   name: string;
   description: string;
+  price: number;
   handle: string;
   category: string;
-  price: number;
   pictureUrl: string;
-  type?: string;
   brand: string;
-  quantityInStock?: number;
+  type: string;
+  quantityInStock: number;
+  discount: boolean;
+  isNew: boolean;
+  isBestSelling: boolean;
+  featuredItem: boolean;
 }

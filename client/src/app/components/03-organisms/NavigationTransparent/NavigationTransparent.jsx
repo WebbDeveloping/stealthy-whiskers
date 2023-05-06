@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { NavLink } from "react-router-dom";
 import NavDropdown from "../../02-molecules/NavDropdown/NavDropdown";
 
 const Navigation = () => {
@@ -23,13 +24,13 @@ const Navigation = () => {
       className={`fixed top-0 w-full flex flex-col md:flex-row   py-1 z-50 ${navBackground}`}
     >
       <div className="flex justify-between items-center px-6 py-3">
-        <a href="/">
+        <NavLink to="/">
           <div className={`font-semibold text-sm uppercase ${navText}`}>
             Stealthy
             <br />
             Whiskers
           </div>
-        </a>
+        </NavLink>
         <div className="flex items-center md:hidden">
           <div
             className="menu-button w-nav-button max-w-[28px] max-h-[28px]"
@@ -46,30 +47,30 @@ const Navigation = () => {
           isMenuOpen ? "block" : "hidden"
         }`}
       >
-        <a
-          href="/"
+        <NavLink
+          to="/"
           className="block md:inline-block font-medium text-xs weight-thin uppercase py-6 border-b border-t border-[#e4e9ec] mx-4 md:border-0"
         >
           Home
-        </a>
-        <a
-          href="/"
+        </NavLink>
+        <NavLink
+          to="/about"
           className="block md:inline-block font-medium text-xs weight-thin uppercase py-6 border-b border-[#e4e9ec] mx-4 md:border-0"
         >
           About
-        </a>
-        <a
-          href="/"
+        </NavLink>
+        <NavLink
+          to="/products"
           className="block md:inline-block font-medium text-xs weight-thin uppercase py-6 border-b border-[#e4e9ec] mx-4 md:border-0"
         >
-          Services
-        </a>
-        <a
-          href="/"
+          Shop
+        </NavLink>
+        <NavLink
+          to="/contact"
           className="block md:inline-block font-medium text-xs weight-thin uppercase py-6 border-b border-[#e4e9ec] mx-4 md:border-0"
         >
           Contact
-        </a>
+        </NavLink>
       </div>
     </nav>
   );

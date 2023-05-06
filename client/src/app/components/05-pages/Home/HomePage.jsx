@@ -13,20 +13,17 @@ import { products } from "../../../TestData/products";
 
 export default function Home() {
   return (
-    <div className="home">
+    <div className="relative overflow-x-hidden page-wrapper">
       <NavigationTransparent />
-      <section className="min-h-[93vh] flex flex-col justify-center items-centerr">
-        <Hero />
-      </section>
+      <Hero />
       <section className="h-full bg-[#ffffff] flex justify-center">
         <div className="container">
           <OurStory className="mx-auto w-full overflow-hidden" />
         </div>
       </section>
-      <section className="py-8 overflow-x-hidden flex justify-center items-start">
-        {/* <Catalog products={products} addProduct={addProduct} slides={[]} /> */}
-        <BestSelling products={products} />
-      </section>
+
+      <BestSelling products={products} />
+
       <section className="py-10 flex flex-col items-center">
         <BgImgSlider />
         <br />

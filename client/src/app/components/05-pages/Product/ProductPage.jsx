@@ -1,7 +1,6 @@
 import React from "react";
 import Footer from "../../03-organisms/Footer/Footer";
 import FollowUs from "../../03-organisms/FollowUs/FollowUs";
-import NavigationTransparent from "../../03-organisms/NavigationTransparent/NavigationTransparent";
 import TestimonialSlider from "../../03-organisms/TestimonialSlider/TestimonialSlider";
 import ProductHero from "../../03-organisms/ProductHero/ProductHero";
 import ProductDetails from "../../02-molecules/ProductDetails/ProductDetails";
@@ -28,7 +27,7 @@ const product = {
   featuredItem: false,
 };
 
-export default function Product(props) {
+export default function ProductPage(props) {
   return (
     <div className="page-wrapper">
       <NavigationWhite />
