@@ -32,16 +32,22 @@ const ProductCard = ({
           </div>
         </div>
         <div className="px-3 flex flex-col items-start justify-start py-3 pr-4 pl-5 gap-3">
-          <div className="flex flex-col gap-3 justify-start items-start w-full">
-            <div className="flex flex-col gap-4">
-              {isNewItem(isNew)}
-              <div className="flex flex-col justify-start items-start gap-2">
-                <h3 className="font-medium text-xl transform-none m-0">
-                  {name}
-                </h3>
-                <div className="text-sm uppercase font-light ">{Category}</div>
+          <div className="flex flex-col gap-3 justify-start md:justify-between items-start w-full">
+            <div className="flex flex-col md:flex-row md:justify-between gap-4 md:w-full">
+              <div className="flex flex-col justify-start">
+                {isNewItem(isNew)}
+                <div className="flex flex-col justify-start items-start gap-2">
+                  <h3 className="font-medium text-xl transform-none m-0">
+                    {name}
+                  </h3>
+                  <div className="text-sm uppercase font-light ">
+                    {Category}
+                  </div>
+                </div>
               </div>
-              <div className="text-md">{isDiscounted(Price, discount)}</div>
+              <div className="text-md md:text-sm md:text-[#667479]">
+                {isDiscounted(Price, discount)}
+              </div>
             </div>
           </div>
         </div>

@@ -18,7 +18,7 @@ export default function Home() {
       <NavigationTransparent />
       <Hero />
       <section className="h-full bg-[#ffffff] flex justify-center">
-        <div className="container">
+        <div className="px-4">
           <OurStory className="mx-auto w-full overflow-hidden" />
         </div>
       </section>

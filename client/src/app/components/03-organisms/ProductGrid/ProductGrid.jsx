@@ -2,15 +2,14 @@ import ProductCard from "../../02-molecules/ProductCard/ProductCard";
 
 function ProductGrid({ products }) {
   return (
-    <div className="relative flex flex-col w-full z-20 py-10 px-1">
-      <div className="text-center mb-9">
-        <div className="flex flex-col">
-          <div className="text-sm uppercase text-[#667479 ] font-thin">
-            Popular
-          </div>
-          <h2 className="text-3xl">Best Selling</h2>
+    <div className="relative flex flex-col w-full z-20 py-10 px-1 gap-y-14">
+      <div className="flex flex-col gap-y-4 text-center">
+        <div className="text-sm uppercase text-[#667479 ] font-thin">
+          Popular
         </div>
+        <h2 className="text-3xl font-semibold uppercase">Best Selling</h2>
       </div>
+
       <div className="grid grid-cols-2 gap-x-2 gap-y-6">
         {products.map((product, index) => {
           return (
