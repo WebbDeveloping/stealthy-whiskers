@@ -2,7 +2,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import { slides } from "./utils/slides";
-import { Button } from "../../../../stories/Button";
+// import { Button } from "../../../../stories/Button";
 import { NextArrow, PrevArrow } from "./utils/HeroArrows";
 import "./utils/SlickStyles.css";
 
@@ -64,13 +64,13 @@ function Hero(props) {
               {slide.title}
             </h1>
             <div className="button-wrapper">
-              <Button
+              {/* <Button
                 primary={true}
                 size="small"
                 label={slide.button.text}
                 link={slide.button.link}
                 backgroundColor="bg-white"
-              />
+              /> */}
             </div>
           </div>
           <div className="overlay bg-[#0808084d] absolute top-0 left-0 w-full h-full"></div>

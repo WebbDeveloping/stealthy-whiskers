@@ -1,5 +1,6 @@
 import { isNewItem } from "./utils/isNew";
 import { isDiscounted } from "./utils/isDiscounted";
+import { Link } from "react-router-dom";
 import ProductImage from "../../01-atoms/ProductImage/ProductImage";
 
 const ProductCard = ({
@@ -18,16 +19,16 @@ const ProductCard = ({
 }) => {
   return (
     <div className="w-full h-full">
-      <a
-        href={`/product/${Handle}`}
+      <Link
+        to={`/product/${Handle}`}
         className="flex flex-col  text-gray-800 bg-white gap-1"
       >
         <div className="bg-gray-100 h-full overflow-hidden">
-          <div className="w-full h-[80vw relative max-h-[650px] min-h-full">
+          <div className="w-full h-[80vw] lg:h-[35vw] relative max-h-[650px] min-h-full">
             <img
               src={PictureUrl}
               alt="alt"
-              className="object-cover h-[80vw] w-full"
+              className="object-cover h-full w-full"
             />
           </div>
         </div>
@@ -51,7 +52,7 @@ const ProductCard = ({
             </div>
           </div>
         </div>
-      </a>
+      </Link>
     </div>
   );
 };

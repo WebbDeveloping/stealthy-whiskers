@@ -1,4 +1,5 @@
-import React from "react";
+import { Link } from "react-router-dom";
+
 import FollowImage from "../../01-atoms/FollowImage/FollowImage";
 
 const FollowUs = () => {
@@ -21,13 +22,13 @@ const FollowUs = () => {
             slug={"https://www.instagram.com"}
           />
         </div>
-        <a href="/" className="inline-block py-8 text-center">
+        <Link to="/" className="flex flex-col justify-center py-8 text-center">
           <div className="cursor-pointer overflow-hidden">
             <div className="text-sm md:text-lg font-semibold">
               {"@STEALTHYWHISKERS"}
             </div>
           </div>
-        </a>
+        </Link>
         <div className="flex gap-x-2">
           <FollowImage
             imgsrc={

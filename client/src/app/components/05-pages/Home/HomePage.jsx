@@ -17,17 +17,18 @@ export default function Home() {
     <div className="relative overflow-x-hidden page-wrapper">
       <NavigationTransparent />
       <Hero />
-      <section className="h-full bg-[#ffffff] flex justify-center">
-        <div className="px-4">
-          <OurStory className="mx-auto w-full overflow-hidden" />
-        </div>
-      </section>
+
+      <OurStory className="mx-auto w-full overflow-hidden" />
+
       <Carousel />
       <BestSelling products={products} />
-      <section className="py-10 flex flex-col items-center">
-        <BgImgSlider />
-        <br />
-        <ProductGrid products={products} />
+      <section className="py-10 lg:py-24 flex flex-col lg:flex-row gap-y-8 gap-x-2">
+        <div className="w-full lg:w-2/5">
+          <BgImgSlider />
+        </div>
+        <div className="w-full lg:sticky lg:-mb-[65px] lg:pb-16 ">
+          <ProductGrid products={products} />
+        </div>
       </section>
       <section className="relative pb-16 flex justify-center max-w-[100%]">
         <FeaturedProducts />

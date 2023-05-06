@@ -2,8 +2,8 @@ import ProductCard from "../../02-molecules/ProductCard/ProductCard";
 
 function ProductGrid({ products }) {
   return (
-    <div className="relative flex flex-col w-full z-20 py-10 px-1 gap-y-14">
-      <div className="flex flex-col gap-y-4 text-center">
+    <div className="relative flex flex-col z-20 py-10 px-1 gap-y-14 lg:pt-0">
+      <div className="flex flex-col gap-y-4 text-center lg:hidden">
         <div className="text-sm uppercase text-[#667479 ] font-thin">
           Popular
         </div>
@@ -11,7 +11,8 @@ function ProductGrid({ products }) {
       </div>
 
       <div className="grid grid-cols-2 gap-x-2 gap-y-6">
-        {products.map((product, index) => {
+        {/* {products.map((product, index) => { // Limit to only 4 items */}
+        {products.slice(0, 4).map((product, index) => {
           return (
             <ProductCard
               key={index}

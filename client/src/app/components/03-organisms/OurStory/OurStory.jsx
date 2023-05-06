@@ -2,9 +2,9 @@ import React from "react";
 
 function OurStory() {
   return (
-    <div className="px-4 py-20 relative flex justify-center z-10">
-      <div className="grid-cols-3 gap-0 relative z-25">
-        <div className="grid grid-cols-1 grid-row-2 gap-0 items-center justify-center content-center">
+    <div className="px-4 py-20 relative flex justify-center z-10 h-full bg-[#ffffff] lg:w-full">
+      <div className="grid-cols-3 gap-0 relative z-25 lg:w-full">
+        <div className="grid grid-cols-1 grid-row-2 gap-0 items-center justify-center lg:grid-row-1 relative px-5 lg:container mx-auto">
           <div className="w-full max-w-full mx-auto mt-4">
             <div className="flex flex-col gap-y-8 justify-center text-center">
               <div className="flex flex-col gap-y-4 text-center items-center justify-center">
@@ -24,46 +24,43 @@ function OurStory() {
                   </div>
                 </div>
               </div>
-              <div className="dual-button flex justify-center gap-4">
+              <div className="flex justify-center gap-4">
                 <a
                   href="/shop"
-                  className="button dark w-inline-block flex items-center bg-[#080808] text-sm text-center uppercase border rounded-full justify-center py-3 px-7 text-white"
+                  className="flex items-center bg-[#080808] text-sm text-center uppercase border rounded-full justify-center py-3 px-7 text-white"
                 >
-                  <div className="button-text-wrapper overflow-hidden flex flex-col cursor-pointer text-xs">
-                    <div className="button-text text-xs">ShoP All</div>
+                  <div className="overflow-hidden flex flex-col cursor-pointer text-xs">
+                    <div className="text-xs uppercase">ShoP All</div>
                   </div>
                 </a>
-                <a
-                  href="/about"
-                  className="underline-link w-inline-block flex items-center gap-5"
-                >
-                  <div className="button-text-wrapper overflow-hidden flex flex-col cursor-pointer text-xs">
-                    <div className="text-xs">Our story</div>
+                <a href="/about" className="flex items-center gap-5">
+                  <div className="overflow-hidden flex flex-col cursor-pointer text-xs">
+                    <div className="text-xs uppercase">Our story</div>
                   </div>
-                  <div className="link-arrow-wrapper ">
+                  <div className=" ">
                     <img
                       src="https://assets.website-files.com/642fc428f0c0b966d5ba7a46/642fc428f0c0b915ebba7b34_arrow-right(24x24)%402x%20(8).svg"
                       loading="lazy"
                       alt=""
-                      className="arrow-icon w-[14px] h-[14px]"
+                      className="w-[14px] h-[14px]"
                     />
                   </div>
                 </a>
               </div>
             </div>
           </div>
-          <div className="story-image-wrapper flex w-full justify-center mt-16 gap-2">
-            <div className="relative third h-[220px] w-[113px] mt-4">
+          <div className="flex w-full justify-center mt-16 gap-2 lg:justify-between lg:absolute lg:z-10 lg:px-5 lg:items-center">
+            <div className="relative third h-[220px] w-[113px] mt-4 lg:m-0 lg:h-[21vw] lg:w-[15vw]">
               <img
                 src="https://assets.website-files.com/642fc428f0c0b966d5ba7a46/642fc5b24525316565e8ab0d_11.webp"
-                className="h-full w-full object-cover absolute inset-0 top-0 left-0 right-0 bottom-0"
+                className="h-full w-full object-cover"
                 alt="Purrtection Helmet"
               />
             </div>
-            <div className="relative third h-[220px] w-[113px] mt-16">
+            <div className="relative third h-[220px] lg:h-[21vw] lg:w-[15vw] w-[113px] mt-16 lg:m-0">
               <img
                 src="https://assets.website-files.com/642fc428f0c0b966d5ba7a46/642fc5b200c6121239e961ea_9.webp"
-                className="h-full w-full object-cover absolute inset-0 top-0 left-0 right-0 bottom-0"
+                className="h-full w-full object-cover"
                 alt="Purrtection Helmet"
               />
             </div>
