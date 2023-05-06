@@ -23,17 +23,13 @@ const ProductCard = ({
         className="flex flex-col  text-gray-800 bg-white gap-1"
       >
         <div className="bg-gray-100 h-full overflow-hidden">
-          <ProductImage
-            src={PictureUrl}
-            alt={name}
-            height={300}
-            width={200}
-            borderRadius={10}
-            borderColor="#ccc"
-            borderWidth={1}
-            shadowColor="#000"
-            shadowBlur={5}
-          />
+          <div className="w-full h-[80vw relative max-h-[650px] min-h-full">
+            <img
+              src={PictureUrl}
+              alt="alt"
+              className="object-cover h-[80vw] w-full"
+            />
+          </div>
         </div>
         <div className="px-3 flex flex-col items-start justify-start py-3 pr-4 pl-5 gap-3">
           <div className="flex flex-col gap-3 justify-start items-start w-full">

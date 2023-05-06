@@ -10,7 +10,7 @@ function BestSelling({ products }) {
     adaptiveHeight: true,
   };
   return (
-    <div className="relative flex flex-col w-full z-20 py-10">
+    <div className="relative flex flex-col w-full z-20 py-10 px-1">
       <div className="text-center mb-9">
         <div className="flex flex-col">
           <div className="text-sm uppercase text-[#667479 ] font-thin">

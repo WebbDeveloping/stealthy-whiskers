@@ -19,19 +19,19 @@ function BgImgSlider() {
       {slides.map((slide, index) => (
         <div
           key={index}
-          className="w-full h-[93vh] !flex justify-center items-center pt-20 pb-40 relative z-30 flex-col max-h-[525px] max-w-[700px]"
+          className="w-full h-[93vh] !flex justify-center items-center pt-20 pb-40 relative z-30 flex-col max-h-[525px] sm:max-h-[650px] max-w-[700px] sm:max-w-full"
         >
           <img
             src={slide.image}
             alt=""
-            className="absolute inset-0 object-cover w-full h-full z-0 max-h-[525px]"
+            className="absolute inset-0 object-cover w-full h-full z-0 max-h-[525px] sm:max-w-full sm:max-h-[650px]"
           />
-          <div className="relative grid justify-center text-center text-white max-w-[800px] z-40 px-2">
+          <div className="relative grid justify-center text-center text-white max-w-[800px] sm:max-w-full z-40 px-2">
             <h2 className="text-3xl font-semibold uppercase m-0 mb-8">
               {slide.title}
             </h2>
             <div className="button-wrapper">
-              <a href="/" className="text-white">
+              <a href="/" className="text-white uppercase text-xs">
                 {slide.button.text}
               </a>
             </div>
