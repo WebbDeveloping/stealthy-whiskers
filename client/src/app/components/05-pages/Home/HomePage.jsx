@@ -10,6 +10,7 @@ import OurStory from "../../03-organisms/OurStory/OurStory";
 import ProductGrid from "../../03-organisms/ProductGrid/ProductGrid";
 import TestimonialSlider from "../../03-organisms/TestimonialSlider/TestimonialSlider";
 import { products } from "../../../TestData/products";
+import Carousel from "../../03-organisms/Carousel/Carousel";
 
 export default function Home() {
   return (
@@ -21,9 +22,8 @@ export default function Home() {
           <OurStory className="mx-auto w-full overflow-hidden" />
         </div>
       </section>
-
+      <Carousel />
       <BestSelling products={products} />
-
       <section className="py-10 flex flex-col items-center">
         <BgImgSlider />
         <br />

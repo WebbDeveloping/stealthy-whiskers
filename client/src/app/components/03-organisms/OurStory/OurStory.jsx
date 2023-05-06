@@ -2,19 +2,19 @@ import React from "react";
 
 function OurStory() {
   return (
-    <div className="px-4 pt-20 relative flex justify-center z-10">
+    <div className="px-4 py-20 relative flex justify-center z-10">
       <div className="grid-cols-3 gap-0 relative z-25">
         <div className="grid grid-cols-1 grid-row-2 gap-0 items-center justify-center content-center">
-          <div className="w-full max-w-full mx-auto -mt-4">
-            <div className="stacked-intro large centered flex flex-col gap-4">
-              <div className="stacked-intro small centered flex flex-col gap-3 text-center">
-                <div className="width-large">
-                  <h1 className="heading large text-3xl weight-semibold">
+          <div className="w-full max-w-full mx-auto mt-4">
+            <div className="flex flex-col gap-y-8 justify-center text-center">
+              <div className="flex flex-col gap-y-4 text-center items-center justify-center">
+                <div className="max-w-lg">
+                  <h2 className="text-3xl font-semibold uppercase">
                     Prepare Your Cat for Battle with Stealthy Whiskers
-                  </h1>
+                  </h2>
                 </div>
-                <div className="width-medium">
-                  <div className="body-display">
+                <div className="max-w-md">
+                  <div className="text-[#667479] text-md">
                     At Stealthy Whiskers, we're more than just a store that
                     sells cat gear. We're passionate cat owners and military
                     enthusiasts who want to help other cat owners train their

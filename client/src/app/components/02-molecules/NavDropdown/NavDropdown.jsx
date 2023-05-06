@@ -8,7 +8,7 @@ export default function NavDropdown({ isMenuOpen }) {
         isMenuOpen ? "block" : "hidden"
       }`}
     >
-      {/* <Link
+      <Link
         to="/"
         className="block md:inline-block font-medium text-xs weight-thin uppercase py-6 border-b border-t border-[#e4e9ec] mx-4"
       >
@@ -31,7 +31,7 @@ export default function NavDropdown({ isMenuOpen }) {
         className="block md:inline-block font-medium text-xs weight-thin uppercase py-6 border-b border-[#e4e9ec] mx-4"
       >
         Contact
-      </Link> */}
+      </Link>
       <Link
         to="/"
         className="block md:inline-block font-medium text-xs weight-thin uppercase py-6 border-b border-t border-[#e4e9ec] mx-4"

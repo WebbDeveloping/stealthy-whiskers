@@ -21,11 +21,17 @@ const Navigation = () => {
 
   return (
     <nav
-      className={`fixed top-0 w-full flex flex-col md:flex-row   py-1 z-50 ${navBackground}`}
+      className={`fixed top-0 w-full flex flex-col md:flex-row   py-1 z-50 ${navBackground} ${
+        isMenuOpen ? "bg-white" : navBackground
+      }`}
     >
       <div className="flex justify-between items-center px-6 py-3">
         <NavLink to="/">
-          <div className={`font-semibold text-sm uppercase ${navText}`}>
+          <div
+            className={`font-semibold text-sm uppercase ${
+              isMenuOpen ? "text-black md:text-white" : navText
+            }`}
+          >
             Stealthy
             <br />
             Whiskers
@@ -35,15 +41,28 @@ const Navigation = () => {
           <div
             className="menu-button w-nav-button max-w-[28px] max-h-[28px]"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
+            // TODO: condense this code into a single line
           >
-            <div className={`w-8 h-[3px] my-1 ${hamburgerLines}`}></div>
-            <div className={`w-6 h-[3px] my-1 ${hamburgerLines}`}></div>
-            <div className={`w-8 h-[3px] my-1 ${hamburgerLines}`}></div>
+            <div
+              className={`w-8 h-[3px] my-1 ${
+                isMenuOpen ? "bg-black" : hamburgerLines
+              }`}
+            ></div>
+            <div
+              className={`w-6 h-[3px] my-1 ${
+                isMenuOpen ? "bg-black" : hamburgerLines
+              }`}
+            ></div>
+            <div
+              className={`w-8 h-[3px] my-1 ${
+                isMenuOpen ? "bg-black" : hamburgerLines
+              }`}
+            ></div>
           </div>
         </div>
       </div>
       <div
-        className={`${navText} md:flex w-full justify-end md:items-center text-center bg-white md:bg-transparent ${
+        className={`md:${navText} md:flex w-full justify-end md:items-center text-center bg-white md:bg-transparent ${
           isMenuOpen ? "block" : "hidden"
         }`}
       >
